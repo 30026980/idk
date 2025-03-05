@@ -1,0 +1,218 @@
+#BackGround
+{
+	height: 1000px;
+}
+#NavBar
+{
+    margin-right:100px;
+}
+#Header12
+{
+	font-size: 40px;
+    position: absolute;
+	color:white;
+	z-index: -100;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	background-image: linear-gradient(#222222,#000000);
+	border-radius: 10px;
+	border-style: solid;
+	border-color: gray;
+	width: 90%;
+	height:300px;
+	float:none;
+    left:120px;
+}
+.TextInHeader
+{
+	float:right;
+	margin-right:50px;
+	top:30%;
+	position:relative;
+	font-size:40px;
+}
+#LongGapper
+{
+    left:10px;
+    height:1100px;
+    width:100px;
+    float:left;
+}
+#Images 
+{
+    height: 250px;
+	width: 15%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+	overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.75s ease, border-color 0.75s ease;
+    margin: 20px;
+	float: left;
+	top:1%;
+	position: relative;
+    z-index: 1;
+    border-radius: 30px;
+}
+#images img
+{
+    transition: height 0.75s ease, opacity 1s ease;
+    z-index: 1;
+}
+#images img:hover, .ImageInContainer img
+{
+
+    height: 600px;
+	width:auto;
+    opacity: 0.2;
+}
+#images img:hover, .ImageInContainer img:hover
+{
+    height: 500px;
+    opacity: 1;
+}
+#images:hover, .ImageInContainer img
+{
+    box-shadow: 0px 0px 0px 0px black;
+    border-color: black;
+}
+#images:hover, .ImageInContainer img:hover
+{
+    box-shadow: 1px 1px 10px 1px white;
+    border-color: white;
+}
+iframe
+{
+	height: 99%;
+	width:1100px;
+}
+.TextinImage 
+{
+	position: absolute;
+	font-size: 20px;
+	float: none;
+	z-index: 10;
+	color:white;
+	pointer-events: none;
+}
+#Text
+{
+	color: white;
+	font-size: 25px;
+	font-family: "darkmode-on", sans-serif;
+	text-align: center;
+}
+#GalleryImages img
+{
+	height: 300px; 
+	width:auto;
+    border-width:10px;
+	border-radius: 7px; 
+	border-style:solid;
+	border-width: 3px;
+	border-color:black;
+	float:left; 
+    position:inherit;
+	margin:15px;
+	background-color:#C4C4C4;
+	box-shadow: 0px 0px 3px 4px black;
+}
+#GalleryImages2 img
+{
+	height: 300px; 
+	width:auto;
+    border-width:10px;
+	border-radius: 7px; 
+	border-style:solid;
+	border-width: 3px;
+	border-color:white;
+	float:left; 
+    position:inherit;
+	margin:15px;
+	background-color:#C4C4C4;
+	box-shadow: 0px 0px 3px 4px white;
+}
+#MainGalleryImages img
+{
+	height: 500px; 
+	width:auto;
+	border-radius: 7px; 
+	border-style:ridge;
+	border-width: 3px;
+	border-color:black;
+	box-shadow: 0px 0px 10px 10px black;
+	flex:auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Gapper
+{
+    position: inherit;
+	border-width:3px;
+	box-shadow: 10px 0px 10px 0px black;
+	border-style:dotted;
+	border-color:white;
+	margin-bottom: 30px;
+	margin-top:100px;
+	width:100%;
+    top:0%;
+	left:0px;
+}
+.BackgroundVideo video
+{
+    top:0%;
+    z-index: -1;
+    height:100%;
+    position:fixed;
+    opacity:0.5;
+    filter: blur(3px);
+    border-style:solid;
+    border-color:black;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.OtherVideo video
+{
+    width:50%;
+    position:relative;
+    float:right;
+    margin-top:100px;
+    margin-right:10px;
+    border-width:10px;
+    border-style:solid;
+    border-color: black;
+}
+.BackgroundVideoScreen video
+{
+    left:0;
+    top:0;
+    z-index: -1000;
+    position:fixed;
+    filter: blur(10px);
+    opacity: 0.3;
+}
+#Arrow img 
+{
+    position: fixed;
+    height:150px;
+    opacity: 0.1;
+    bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100px;
+}
+#ButtonLink
+{
+	height:300px;
+	position: absolute;
+	height: 250px;
+	width: 15%;
+	margin: 20px;
+}

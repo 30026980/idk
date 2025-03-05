@@ -1,0 +1,57 @@
+#DownloadGame
+{
+    font-family: "calling-code", sans-serif;
+    text-align: center;
+    font-size:100px;
+}
+#BackGroundImage img
+{
+    z-index: -100;
+    position: fixed;
+    top:0%;
+    left:0%;
+    height:100%;
+	 width:100%;
+}
+#ImageContainer
+{
+	z-index: -100;
+    top:0%;
+    width:87%;
+	margin-left:9%;
+	border-style: solid;
+	min-width: 700px;
+	background-image: radial-gradient(rgb(1,1,1,0.2),rgb(10,10,10,0.6));
+	box-shadow: 0,0,1,2,white;
+	min-height: 20px;
+	margin-bottom:10px;
+	overflow: hidden;
+}
+.ImageLeft img
+{
+	left:0px;
+	float:left;
+	overflow: hidden;
+}
+.TextRight
+{
+	font-family: "calling-code", sans-serif;
+	font-size: 200%;
+	color:white;
+	top:0px;
+	position:relative;
+}
+.ImageRight img
+{
+	left:0px;
+	float:Right;
+	overflow: hidden;
+}
+.TextLeft
+{
+	font-family: "calling-code", sans-serif;
+	font-size: 200%;;
+	color:white;
+	top:0px;
+	position:relative;
+}
