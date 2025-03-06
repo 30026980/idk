@@ -1,0 +1,16 @@
+#BackGroundImage{
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-image: url(BackGroundTry.png);
+    background-color:rgb(43, 43, 43);
+    background-size: 4%;
+    width: 200%;
+    height:200%;
+    animation: 20s MoveBackground infinite;
+    filter:blur(2px);
+}
+@keyframes MoveBackground {
+    0% {transform: translate(0,-18.8%); animation-timing-function: linear}
+    100% {transform: translate(-40%, -5%);}
+}
