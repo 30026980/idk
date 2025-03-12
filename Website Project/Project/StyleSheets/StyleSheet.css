@@ -5,12 +5,12 @@ body{
 }
 #VideoPlaying video{
     position:fixed;
-    width:130%;
+    width:200%;
     top: 0%;
     left:0%;
     z-index: -10;
     filter:brightness(0.7);
-    filter:blur(1px);
+    filter:blur(10px);
     display:block;
     margin:auto;
     transform: translate(-12%, -25%);
@@ -53,7 +53,7 @@ body{
     position:absolute;
     margin:0%;
     right:96%;
-    width:350px;
+    width:300px;
     height:60px;
     background-image: linear-gradient(rgb(30, 30, 30,0.7),rgb(25, 25, 25,0.8));
     border-style: solid;
@@ -67,7 +67,7 @@ body{
 }
 .BigBox:hover
 {
-    right:82.2%;
+    right:84.6%;
     border-color:rgb(255,255,255, 1);
     height:115px;
 }
@@ -143,4 +143,86 @@ body{
     0% {opacity: 1; visibility: visible;}
     20% {opacity: 0.4;}
     100% {opacity: 0; visibility: hidden;}
+}
+#ProfilePicture img
+{
+    width:250px;
+    height:250px;
+    background-color: rgb(223, 107, 252, 0.5);
+    border-radius: 100%;
+    border-width: 3px;
+    border-color:rgba(78, 0, 88, 0.397);
+    border-style: solid;
+}
+#ProfilePicture
+{
+    animation: 1.2s ease ProfileMoveOn;
+    text-align: center;
+}
+footer{
+    width:100%;
+    height: 100px;
+    background-image: linear-gradient(rgba(206, 206, 206, 0),rgba(255, 255, 255, 0.26));
+    bottom:0%;
+    left:0%;
+    position:fixed;
+    display: flex;
+    align-items: flex-end;
+    color:white;
+    padding-left:10px;
+}
+.QuickGallery
+{
+    animation: 1s ease Moveon;
+    position: relative;
+    height:230px;
+    width:500px;
+    text-align: center;
+    align-items: center;
+    top:150px;
+    float:left;
+}
+.QuickGallery1
+{
+    left:300px;
+}
+.QuickGallery2
+{
+    left:600px;
+}
+.helper{
+    display: inline-block;
+    vertical-align: middle;
+}
+.GalleryHover img
+{
+    position:absolute;
+    display:inline-block;
+    vertical-align: center;
+    word-spacing: 0%;
+    width:600px;
+    left:0;
+    transform: translate(-50px, -30px);
+}
+.GalleryHoverOff
+{
+    z-index: 100;
+}
+.GalleryHoverOn
+{
+    opacity: 0;
+    transform:translatey(-17px);
+    transition: opacity 0.2s ease;
+}
+.QuickGallery:hover .GalleryHoverOn
+{
+    opacity: 1;
+}
+@keyframes Moveon {
+    0% {top: 1000px}
+    100% {top: 150px;}
+}
+@keyframes ProfileMoveOn {
+   0% {transform: translateY(-1000px);}
+   100%{transform:translateY(0px) ;} 
 }

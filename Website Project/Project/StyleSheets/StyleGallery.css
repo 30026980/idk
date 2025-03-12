@@ -1,0 +1,27 @@
+.Galleryframe{
+    width:200px;
+    height:200px;
+    object-fit: contain;
+    background-image: linear-gradient(rgb(217, 130, 252), rgb(68, 38, 67));
+    float:left;
+    text-align: center;
+    padding:20px;
+    margin:20px;
+    border-style:outset;
+    border-color:rgb(126, 223, 218);
+    border-radius: 10%;
+    border-width: 5px;
+}
+.Gallerypicture img
+{
+    max-width: 80%;
+    max-height: 80%;
+}
+#GalleryPages
+{
+    left:1%;
+    width:98%;
+    position:fixed;
+    height:1000px;
+    top:130px;
+}
