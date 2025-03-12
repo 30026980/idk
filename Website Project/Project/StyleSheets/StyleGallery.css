@@ -3,7 +3,6 @@
     height:200px;
     object-fit: contain;
     background-image: linear-gradient(rgb(217, 130, 252), rgb(68, 38, 67));
-    float:left;
     text-align: center;
     padding:20px;
     margin:20px;
@@ -11,6 +10,7 @@
     border-color:rgb(126, 223, 218);
     border-radius: 10%;
     border-width: 5px;
+    margin-top:40px;
 }
 .Gallerypicture img
 {
@@ -20,8 +20,69 @@
 #GalleryPages
 {
     left:1%;
-    width:98%;
+    width:400%;
     position:fixed;
-    height:1000px;
+    height:600px;
     top:130px;
+    background-color: white;
+}
+.Container
+{
+    float:left;
+}
+#BackGroundImage{
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-image: url(../images/Ella/Kimino2Ella.png);
+    background-color:rgb(43, 43, 43);
+    background-size: 4%;
+    width: 200%;
+    height:200%;
+    animation: 30s MoveBackground infinite;
+    filter:blur(2px) grayscale(1);
+}
+@keyframes MoveBackground {
+    0% {transform: translate(-3%,-18.8%); animation-timing-function: linear; filter: blur(10px) grayscale(1);}
+    50%{filter:blur(3px) grayscale(1);;}
+    100% {transform: translate(-43%, -3%); filter:blur(10px)grayscale(1);}
+}
+#Selection
+{
+    background-color: rgb(235, 235, 235);
+    z-index: 100;
+    left:32%;
+    width:700px;
+    border-radius: 500px;
+    height:100px;
+    top:80%;
+    position:fixed;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.SelectionOrbs
+{
+    border-radius: 100%;
+    background-color: rgb(80, 80, 80);
+    margin:auto;
+    float:left
+}
+.Orb1
+{
+    width:75px;
+    height:75px;
+   margin-left: 10px;
+}
+.Orb2
+{
+    width:40px;
+    height:40px;
+    margin-left: 10px;
+}
+.Orb3
+{
+    width:40px;
+    height:40px;
+    margin-left: 10px;
 }
