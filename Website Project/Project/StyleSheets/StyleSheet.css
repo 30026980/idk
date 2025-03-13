@@ -226,3 +226,46 @@ footer{
    0% {transform: translateY(-1000px);}
    100%{transform:translateY(0px) ;} 
 }
+.Icon img
+{
+    max-height:50px;
+    max-width:50px;
+    top:9px;
+    position:relative;
+}
+.Icon
+{
+    overflow:hidden;
+    position:absolute;
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+}
+#Youtube{
+    top:85%;
+    position:absolute;
+    left:32.5%;
+    animation: 2s ease SoicalMoveon;
+}
+#BlueSky{
+    top:85%;
+    position:absolute;
+    left:37.5%;
+    animation: 2.2s ease SoicalMoveon;
+}
+#GitHub{
+    top:85%;
+    position:absolute;
+    left:60%;
+    animation: 2.2s ease SoicalMoveon;
+}
+#Steam{
+    top:85%;
+    position:absolute;
+    left:65%;
+    animation: 2s ease SoicalMoveon;
+}
+@keyframes SoicalMoveon {
+    0% {top:150%;}
+    100% {top:85%;}
+}

@@ -5,7 +5,6 @@
     background-image: linear-gradient(rgb(217, 130, 252), rgb(68, 38, 67));
     text-align: center;
     padding:20px;
-    margin:20px;
     border-style:outset;
     border-color:rgb(126, 223, 218);
     border-radius: 10%;
@@ -14,20 +13,25 @@
 }
 .Gallerypicture img
 {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 200px;
+    max-height: 200px;
 }
 #GalleryPages
 {
-    left:1%;
-    width:400%;
-    position:fixed;
-    height:600px;
-    top:130px;
-    background-color: white;
+    left:0%;
+    width: 100%;
+    position: absolute;
+    height: 600px;
+    top: 85px;
+    transition: transform 1s ease, opacity 0.5s ease;
+    opacity: 1;
+    align-content: center;
+    display:flex;
 }
 .Container
 {
+    margin:auto;
+    position: relative;
     float:left;
 }
 #BackGroundImage{
@@ -51,38 +55,21 @@
 {
     background-color: rgb(235, 235, 235);
     z-index: 100;
-    left:32%;
-    width:700px;
+    left:36%;
+    width:500px;
     border-radius: 500px;
     height:100px;
-    top:80%;
-    position:fixed;
-    text-align: center;
-    align-items: center;
+    top:750px;
+    position:absolute;
     align-content: center;
+    display:flex;
 }
 .SelectionOrbs
 {
     border-radius: 100%;
     background-color: rgb(80, 80, 80);
     margin:auto;
-    float:left
-}
-.Orb1
-{
-    width:75px;
-    height:75px;
-   margin-left: 10px;
-}
-.Orb2
-{
-    width:40px;
-    height:40px;
-    margin-left: 10px;
-}
-.Orb3
-{
-    width:40px;
-    height:40px;
-    margin-left: 10px;
+    position: relative;
+    float:left;
+    transition: width 0.4s ease, height 0.4s ease, opacity 0.6s ease;
 }
